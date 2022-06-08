@@ -1,0 +1,39 @@
+*{
+    margin:0;
+}
+
+.head{
+    background-color:rgb(45,45,45);
+    height:10vh;
+    width:100vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.head_logo{
+    height:9vh;
+}
+
+.middle{
+    height:90vh;
+    width:100vw;
+    display:flex;
+    flex-flow:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.middle > div{
+    height:12.5vh;
+    width:85vw;
+    margin:2.3vh;
+    border:solid dimgray 10px;
+    background-color:whitesmoke;
+    border-radius:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:4vh;
+    text-align:center;
+}
