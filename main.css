@@ -15,19 +15,30 @@
     height:9vh;
 }
 
+.before_middle{
+    height:2.5vh;
+    background-color:aliceblue;
+}
+
+.after_middle{
+    height:7.5vh;
+    background-color:aliceblue;
+}
+
 .middle{
-    height:90vh;
+    height:80vh;
     width:100vw;
     display:flex;
     flex-flow:column;
     align-items:center;
     justify-content:center;
+    background-color:aliceblue;
 }
 
-.middle > div{
+.middle > a{
     height:12.5vh;
     width:85vw;
-    margin:2.3vh;
+    margin:1vh;
     border:solid dimgray 10px;
     background-color:whitesmoke;
     border-radius:100px;
@@ -36,4 +47,7 @@
     align-items:center;
     font-size:4vh;
     text-align:center;
+    font-family:monospace;
+    text-decoration:none;
+    color:black;
 }
