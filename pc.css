@@ -1,6 +1,6 @@
 *{
-    margin:0;
     overflow-x:hidden;
+    margin:0;
 }
 
 body{
@@ -54,7 +54,7 @@ body{
     align-items:center;
     font-size:4vh;
     text-align:center;
-    font-family:monospace;
+    font-family:'Kosugi',monospace;
     text-decoration:none;
     color:black;
 }
