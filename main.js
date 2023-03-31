@@ -1,4 +1,4 @@
-fetch('https://script.google.com/macros/s/AKfycbzdi3TnA2yz1fxmveJkyAop_NbXvpB2AvJ2GqYzINQDPhbYt6Q8p9UF_x1zDqliWA5-/exec')
+fetch('https://script.google.com/macros/s/AKfycbwoZZX89ZTEX4OtNq8XY2Nu1IeAmXATLvqXFd_yoVIDnbNPb_BcMsI2aZQb3RjHqlEe/exec')
     .then(response => response.json())
     .then(data => {
         let url = data.url;
@@ -13,3 +13,7 @@ fetch('https://script.google.com/macros/s/AKfycbzdi3TnA2yz1fxmveJkyAop_NbXvpB2Av
 
     })
     .catch(error => console.error(error));
+
+setTimeout(() => {
+    load.style.display = "none"
+},10000)

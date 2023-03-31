@@ -24,7 +24,7 @@ a{
     align-items:center;
 }
 .loader {
-    zoom:3;
+    zoom:2;
     color: #ffffff;
     font-size: 90px;
     text-indent: -9999em;
