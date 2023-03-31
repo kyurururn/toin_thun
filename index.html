@@ -2,34 +2,45 @@
 <html lang="ja">
     <head>
         <title>Toin Thun</title>
-        <link href="https://fonts.googleapis.com/css2?family=Kosugi&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet"> 
     </head>
+
     <body>
+        <div class="load" id="load">
+            <div class="loader"></div>
+        </div>
+
         <div class="head">
-            <a href="#" onclick="window.location.reload(true);"> <img class="head_logo" src="thun.png"> </a>
+            <img class="head_logo" src="thun.png">
         </div>
-
-        <div class="before_middle"></div>
-
         <div class="middle">
-            <a class="jhs" href="https://line.me/R/ti/p/%40663ksiii">
-                中学校<br>生徒・保護者
-            </a>
-            <a class="hs1" href="https://line.me/R/ti/p/%40153gzyiy">
-                高校一年<br>生徒・保護者
-            </a>
-            <a class="hs2" href="https://line.me/R/ti/p/%40294bxxcj">
-                高校二年<br>生徒・保護者
-            </a>
-            <a class="hs3" href="https://line.me/R/ti/p/%40688lnghx">
-                高校三年<br>生徒・保護者
-            </a>
-            <a class="other" href="https://line.me/R/ti/p/%40472xcmoy">
-                その他
-            </a>
+            <div class="middle_menu">
+                <div class="middle_menu_about">
+                    Toin Thunは和歌山県立桐蔭高校<br>
+                    桐蔭中学校のHPが更新されたら<br>
+                    通知で教えてくれる<br>
+                    LINE公式アカウントです。
+                </div>
+                <div class="middle_menu_add">
+                    <a href="#" class="middle_menu_add_button" id="button">
+                        <div class="middle_menu_add_button_icon">
+                            <img class="middle_menu_add_button_icon_img" src="LINE_Brand_icon.png">
+                        </div>
+                        <div class="middle_menu_add_button_about">
+                            友達追加
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+
         </div>
 
-        <div class="after_middle"></div>
     </body>
     <script src="main.js"></script>
 </html>
