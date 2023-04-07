@@ -1,4 +1,4 @@
-fetch('https://script.google.com/macros/s/AKfycbwoZZX89ZTEX4OtNq8XY2Nu1IeAmXATLvqXFd_yoVIDnbNPb_BcMsI2aZQb3RjHqlEe/exec')
+fetch('https://script.google.com/macros/s/AKfycbz6fmaAwoeVNLSrTZ9NlerJtH9aglY6Rycxuvtxg0KX2DfdDvj-yyuxEOxKsvg-X5jk/exec')
     .then(response => response.json())
     .then(data => {
         let url = data.url;
